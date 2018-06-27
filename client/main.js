@@ -1,6 +1,16 @@
 import { Meteor } from 'meteor/meteor';
 import { Promise } from 'meteor/promise';
 
+import '../imports/apps/body.html';
+
+let count = 1;
+
+let countup = function () {
+    $(".passed").text(count++);
+};
+
+Meteor.setInterval(countup, 1000);
+
 new Promise(function (reso) {
 
     function study_time(i) {
@@ -27,6 +37,5 @@ new Promise(function (reso) {
     study_time(0);
 
 }).then(function () {
-    // console.time("2");
     console.log("おわり！");
 });
