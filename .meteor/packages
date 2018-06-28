@@ -21,3 +21,11 @@ autopublish@1.0.7             # Publish all data to the clients (for prototyping
 insecure@1.0.7                # Allow all DB writes from clients (for prototyping)
 promise@0.11.1
 underscore
+accounts-twitter
+accounts-ui
+twitter-config-ui
+meteorhacks:npm
+
+
+npm-container
+pauldowman:dotenv

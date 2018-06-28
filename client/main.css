@@ -37,6 +37,54 @@ body {
     color: darkgrey;
 }
 
+.mode_name{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    color: darkgrey;
+    font-size: 40px;
+}
+
+#startbutton{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    color: darkgrey;
+    font-size: 40px;
+}
+
+#finishbutton{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    color: darkgrey;
+    font-size: 40px;
+}
+
+.ganbari{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    color: darkgrey;
+    font-size: 40px;
+}
+
+.ganbarinum{
+    color: #315481;
+}
+
 ul {
     font-size: 200px;
     margin: 0;

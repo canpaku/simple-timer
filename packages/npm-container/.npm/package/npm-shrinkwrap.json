@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 1,
+  "dependencies": {
+    "oauth": {
+      "version": "0.9.9",
+      "resolved": "https://registry.npmjs.org/oauth/-/oauth-0.9.9.tgz",
+      "integrity": "sha1-7/EAAWHbZBrgyCbZl4mV83xG6Gk="
+    },
+    "twit": {
+      "version": "1.1.19",
+      "resolved": "https://registry.npmjs.org/twit/-/twit-1.1.19.tgz",
+      "integrity": "sha1-NGSZwAxA+Bsgo505ILu31k75G2c="
+    }
+  }
+}
